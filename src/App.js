@@ -1,14 +1,14 @@
 
 import "./styles.css";
 import './App.css';
-import Board from "./components/Board";
+import Game from "./components/Game";
 function App() {
   return (
 
     <div className="App">
       <div className="game">
         <div className="game-board">
-          <Board />
+          <Game />
         </div>
         <div className="game-info">
           <div>{/* status */}</div>
